@@ -1,0 +1,144 @@
+body {
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+/*header*/
+header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 10px;
+}
+
+img {
+  height: 50px;
+  width: auto;
+}
+
+.nav {
+  display: block;
+  padding:20px 10px;
+}
+
+span {
+  padding: 20px 10px;
+  display: inline-block;
+  text-decoration: underline;
+}
+
+a {
+  color: seashell;
+}
+
+/*content*/
+.content {
+  display: block;
+  padding: 70px;
+  width: 100%;
+}
+
+.mission.container {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 700px;
+  width: 1200px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  margin-bottom: 70px;
+}
+
+.mission {
+  width: 1200px;
+  background-color: black;
+  display: block;
+  text-align: center;
+}
+
+/*products secton*/
+#product {
+  display:block;
+  width: 1000px;
+  height: 700px;
+  padding-top: 70px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 70px;
+}
+
+figure {
+  display: inline-block;;
+}
+
+figure img {
+  height: 200px;
+  width: 300px;
+  display: block;
+  vertical-align: top;
+}
+
+figure figcaption {
+  text-align: center;
+  padding-top: 10px;
+}
+
+#locations {
+  display: block;
+  width: 1200px;
+  height: 500px;
+  padding-top: 70px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+}
+
+.address {
+display: flex;
+text-align: center;
+padding-top: 15px;
+width: 100%;
+}
+
+.address.one, .address.two, .address.three {
+  display: block;
+  background-color: black;
+  width: 300px;
+  margin-right:40px;
+  opacity: 1;
+}
+
+
+footer {
+  display: block;
+  text-align: center;
+  width: 1200px;
+  height: 200px;
+  margin: auto;
+}
+
+footer h2 {
+  padding-bottom: 10px;
+}
+
+.copyright {
+  display: block;
+  text-align: left;
+  padding-left: 20px;
+}
